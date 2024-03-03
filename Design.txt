@@ -1,0 +1,49 @@
+
+Design a Basic Black Jack Game
+
+Notes:
+    - As many players that can be at a Table (6 players per table or in a game)
+    - Choices at the table Split, Double Down, Hit, Surrender, or Stand
+    - Casino like Game with having Money
+    - Terminal Based Game
+    - Insurance on Aces
+    - Change Bet Amounts each Turn
+
+
+Game Rules:
+ - Ace is a 11 or 1 depending if hand goes over 21
+ - King, Queen, Jack, 10 is 10 value
+ - 2 through 9 are face value
+ - Suit Does Not Matter
+ - Stand: Hold the Cards the Player has
+ - Split: Split the draw cards into two decks with drawing 2 more cards to make them into a hand
+ - Double Down: double the bet amount and draw one card and then Hold
+ - Surrender: to give up before the round is played and recieve half of the bet amount back and loss the other half
+ - Hit: to draw a Card
+ - Black Jack or Chicken Dinner! is a perfectly dealt 21 with a 150% payout
+ - Otherwise normal payout 100%
+ - If the Dealer's up card is an Ace the Players can get Insurance
+ - Insurance is a side bet of 50% of the bet amount and if the Dealer has a 10 value card as the down card then its payout with 200% of the side bet
+ - Allow Side Bets??
+
+ 
+ 1. Players set Bet
+ 2. Dealer deals 2 cards to every player and to the Dealer himself with first dealt card down 
+    and the rest of the cards are visual for everyone to see 
+ 3.  Each Player takes turns on what they want to do (Split, Double Down, Hit, Surrender, or Stand) and split and double down are only offered at the first     option or choice until Player's hand value goes over 21 or Player wants to Surrender or Stand
+ 4. Once the Players' turns are done then the Dealer reveals his cards
+ 5. Then the Dealer draws cards until he hits or is at 17 for a hand value
+ 6. Now if any of the Players go over 21 then they loss, but if they dont
+ 7. If the Dealer the goes over 21 then you win, but if neither play or dealer goes over then
+ 8. The Player or Dealer with a higher hand value wins
+ 9. Play Again and Again
+
+
+
+
+Next Version:
+    - GUI
+
+
+
+
